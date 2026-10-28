@@ -1,6 +1,6 @@
 
 <table>
-    <thead> MÔ HÌNH THỰC NGHIỆM
+    <thead> KỊCH BẢN MÔ PHỎNG TRÊN NS-3
         <tr>
             <th>Thành phần</th>
             <th>Thiết lập</th>

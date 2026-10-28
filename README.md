@@ -1,6 +1,6 @@
 
 <table>
-    <thead>
+    <thead> MÔ HÌNH THỰC NGHIỆM
         <tr>
             <th>Thành phần</th>
             <th>Thiết lập</th>

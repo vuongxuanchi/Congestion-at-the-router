@@ -1,5 +1,27 @@
 
-# NS-3 Packet-Level Trace Dataset of Network Congestion at a Bottleneck Link
+## DATA
+
+**Vuong Xuan Chi (2026).** *NS-3 Packet-Level Trace Dataset of Network Congestion at a Bottleneck Link* (Version v1.0) [Data set]. Zenodo.
+
+**DOI:** [https://doi.org/10.5281/zenodo.23831638](https://doi.org/10.5281/zenodo.23831638)
+
+---
+
+## Dataset Information
+
+| Attribute | Description |
+|:---|:---|
+| Dataset title | NS-3 Packet-Level Trace Dataset of Network Congestion at a Bottleneck Link |
+| Version | v1.0 |
+| Simulator | ns-3.42 |
+| Network topology | 50-node dumbbell topology |
+| Number of traffic flows | 300 |
+| Traffic classes | Elephant, Sheep, Mice |
+| Queue disciplines | DropTail, CoDel, FQ-CoDel, PIE, FQ-COBALT, RED, Adaptive RED |
+| Repository | Zenodo |
+| DOI | [10.5281/zenodo.23831638](https://doi.org/10.5281/zenodo.23831638) |
+
+---
 
 ## 1. Overview
 
@@ -12,18 +34,6 @@ A **50-node dumbbell topology** carries **300 concurrent flows** belonging to th
 - **Mice:** Sparse, small-packet UDP On/Off flows.
 
 Every flow is forced to cross the bottleneck link.
-
-The same traffic scenario is run under seven queue management schemes at the bottleneck router:
-
-1. DropTail
-2. CoDel
-3. FQ-CoDel
-4. PIE
-5. CAKE-equivalent FQ-COBALT
-6. RED
-7. Adaptive RED
-
-Each configuration is repeated using independent replications with different RNG run numbers.
 
 For every run, one unified CSV file records:
 
@@ -222,32 +232,6 @@ The dataset has the following limitations:
 3. **CAKE approximation:** The `cake` configuration is approximated using `FqCobaltQueueDisc`, rather than being a one-to-one port of Linux CAKE.
 
 4. **Topology availability:** Only the 50-node scenario is included in this version. The 6-node and 20-node scenarios may be added in future versions.
-
----
-
-## 8. How to Cite
-
-If you use this dataset in your research, please cite it as follows:
-
-**Vuong Xuan Chi (2026).** *NS-3 Packet-Level Trace Dataset of Network Congestion at a Bottleneck Link* (Version v1.0) [Data set]. Zenodo.
-
-**DOI:** [https://doi.org/10.5281/zenodo.23831638](https://doi.org/10.5281/zenodo.23831638)
-
----
-
-## Dataset Information
-
-| Attribute | Description |
-|:---|:---|
-| Dataset title | NS-3 Packet-Level Trace Dataset of Network Congestion at a Bottleneck Link |
-| Version | v1.0 |
-| Simulator | ns-3.42 |
-| Network topology | 50-node dumbbell topology |
-| Number of traffic flows | 300 |
-| Traffic classes | Elephant, Sheep, Mice |
-| Queue disciplines | DropTail, CoDel, FQ-CoDel, PIE, FQ-COBALT, RED, Adaptive RED |
-| Repository | Zenodo |
-| DOI | [10.5281/zenodo.23831638](https://doi.org/10.5281/zenodo.23831638) |
 
 ---
 

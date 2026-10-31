@@ -66,9 +66,7 @@ The DropTail traces are intended as a neutral baseline on which other AQM algori
 | OS / Compiler | Ubuntu 22.04, GCC 11.4 (example configuration) |
 | Simulation script | `simulation_la50_v6.cc` (internal revision v8, see change log in the file header) |
 | Simulation time | 180 seconds per run |
-| Application start time | 1.0–1.5 seconds |
 | RNG seed | 10 (`RngSeedManager::SetSeed`) |
-| RNG runs | 1–5 (`--run=1..5`), independent replications |
 | Randomness sources | Start-time jitter U(0, 0.5) seconds per application; per-flow On rate; exponential On/Off durations |
 
 ---

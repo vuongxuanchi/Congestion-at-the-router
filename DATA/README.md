@@ -1,9 +1,9 @@
 
 ## DATA
 
-**Vuong Xuan Chi (2026).** *NS-3 Packet-Level Trace Dataset of Network Congestion at a Bottleneck Link* (Version v1.0) [Data set]. Zenodo.
+DATA 1:  **Vuong Xuan Chi (2026).** *NS-3 Packet-Level Trace Dataset of Network Congestion at a Bottleneck Link (Version v1.0) [Data set]. Zenodo.*
+**DOI:** https://doi.org/10.5281/zenodo.23831638
 
-**DOI:** [https://doi.org/10.5281/zenodo.23831638](https://doi.org/10.5281/zenodo.23831638)
 
 ---
 
@@ -22,5 +22,7 @@
 | DOI | [10.5281/zenodo.23831638](https://doi.org/10.5281/zenodo.23831638) |
 
 ---
+DATA 2:  **Bin Mokti, Mohd Adil (2025).** *UKMDDoSDN: A DDoS Attacks Dataset for Software-Defined Networks”, Mendeley Data, V2.* 
+**DOI:** https://doi.org/10.17632/43nfv26gpk
 
 **Keywords:** ns-3, Network Congestion, Active Queue Management, AQM, PIE, CoDel, FQ-CoDel, RED, Adaptive RED, FQ-COBALT, Traffic Classification, Elephant Flow, Mice Flow, Sheep Flow, Reinforcement Learning, Federated Reinforcement Learning, Packet-Level Traces, Dumbbell Topology.
